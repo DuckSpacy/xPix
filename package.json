@@ -1,0 +1,41 @@
+{
+  "name": "xpix",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "Universal Cross-Device Pixel Unit (Cross Pixel Engine)",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "format": "prettier --write .",
+    "lint": "eslint . --ext .ts",
+    "prepublishOnly": "pnpm run build",
+    "prepare": "husky install"
+  },
+  "keywords": [
+    "pixel",
+    "vwpixel",
+    "adaptive",
+    "viewport",
+    "crosspixel",
+    "css-variables",
+    "svelte",
+    "webapp",
+    "ui"
+  ],
+  "author": "duck.spacy",
+  "license": "MIT",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^8.48.1",
+    "@typescript-eslint/parser": "^8.48.1",
+    "eslint": "^9.39.1",
+    "husky": "^8.0.0",
+    "lint-staged": "^16.2.7",
+    "prettier": "^3.7.4",
+    "typescript": "^5.9.3"
+  }
+}
