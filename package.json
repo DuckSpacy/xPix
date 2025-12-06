@@ -42,6 +42,16 @@
   ],
   "author": "duck.spacy",
   "license": "MIT",
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DuckSpacy/xPix.git"
+  },
+  "homepage": "https://github.com/DuckSpacy/xPix",
+  "bugs": {
+    "url": "https://github.com/DuckSpacy/xPix/issues"
+  },
+
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^8.48.1",
     "@typescript-eslint/parser": "^8.48.1",
